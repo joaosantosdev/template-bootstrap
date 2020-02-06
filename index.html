@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+	<meta name="description" content="Jovem Developer cursos">
+	<meta name="author" content="João Santos">
+	<meta name="keywords" content="Bootstrap,CSS,HTML,PHP">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/css/style.css" >
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>João Santos</title>
+  </head>
+  <body>
+
+    <nav class="navbar  navbar-expand-lg navbar-dark ">
+
+        <div class="container">
+            <a href="#" class="navbar-brand h1 mb-0">João Santos</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contatos</a>
+                    </li>
+                </ul>
+               <ul class="navbar-nav ml-0 mr-5">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Cursos</a>
+                        <div class="dropdown-menu">
+                            <a href="#curso-java" class="dropdown-item">Java</a>
+                            <a href="#" class="dropdown-item">PHP</a>
+                            <a href="#" class="dropdown-item">Python</a>
+                            <a href="#" class="dropdown-item">C#</a>
+                            <a href="#" class="dropdown-item">JavaScript</a>
+                        </div>
+                    </li>
+               </ul>
+               
+               <form class="form-inline">
+                   <input type="search" class="form-control mr-2 " placeholder="Pesquisar">
+                   <button type="submit" class="btn btn-secondary">OK</button>
+               </form>
+
+            </div>
+        </div>
+
+    </nav>
+    
+   
+    <div  class="carousel slide" id="carouselSite" data-ride="carousel">
+            <ol class="carousel-indicators">
+                    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSite" data-slide-to="1"></li>
+                    <li data-target="#carouselSite" data-slide-to="2"></li>
+                </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/slide-01.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Jogos</h1>
+                    <p>Crie seus jogos agora!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/slide-02.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Cursos</h3>
+                    <p>Aprenda a programar em qualquer linguagem</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/slide-03.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Participe</h3>
+                    <p>Forum conectado com o mundo todo</p>
+                </div>
+            </div>
+        </div>
+        <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Próximo</span>
+
+        </a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center my-3 text-dark">
+			 
+                <h1 class="display-3">Lorem Ipsum<i class="fas fa-cogs text-primary"></i></h1>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica edo um impressor desconhecido pegou e modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de L.</p>
+            </div>
+        </div>
+        
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <nav class="navbar navbar-light mb-5" id="navbarVertical">
+                    
+                        <nav class="nav nav-pills flex-column">
+                            <a href="#item1" class="nav-link">Item 1</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a href="#item1-1"  class="nav-link ml-3 my-1">Item 1.1</a>
+                                <a href="#item1-2" class="nav-link ml-3 my-1">Item 1.2</a>
+                            </nav>
+                            <a href="#item2" class="nav-link my-1">Item 2</a>
+                            <a href="#item3" class="nav-link my-1">Item 3</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a href="#item3-1" class="nav-link ml-3 my-1">Item 3.1</a>
+                                <a href="#item3-2" class="nav-link ml-3 my-1">Item 3.2</a>
+                            </nav>
+
+
+                        </nav>
+                    </nav>
+
+                        
+                </div>
+                <div class="col-sm-6 col-md-8">
+                    <div data-spy="scroll" data-target="#navbarVertical" class="scrollspy" data-offset="0">
+                        <h4  id="item1">Lorem ipsum</h4>
+                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                        <h5 id="item1-1">Metus aliquam eleifend</h5>
+                        <p>Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Mauris vitae ultricies leo integer malesuada nunc vel risus. Aliquet enim tortor at auctor. Semper quis lectus nulla at volutpat diam ut venenatis. A arcu cursus vitae congue. Curabitur gravida arcu ac tortor. Sagittis eu volutpat odio facilisis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Nullam vehicula ipsum a arcu cursus. Egestas sed tempus urna et pharetra. Amet purus gravida quis blandit turpis cursus in hac habitasse. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Consequat id porta nibh venenatis. Nec ullamcorper sit amet risus Interdum velit laoreet id donec ultrices. Sed cras ornare arcu dui vivamus arcu felis bibendum. Netus et malesuada fames ac. Amet venenatis urna cursus eget. Congue eu consequat ac felis donec et odio pellentesque diam. Fames ac turpis egestas integer eget aliquet nibh. Sit amet porttitor eget dolor morbi non arcu. Gravida neque convallis a cras semper auctor neque. Massa eget egestas purus viverra accumsan. Suspendisse in est ante in nibh mauris cursus. Elementum nibh tellus molestie nunc non blandit massa enim nec. Ipsum dolor sit amet consectetur adipiscing. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Nulla pharetra diam sit amet nisl suscipit adipiscing. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Porta nibh venenatis cras sed felis eget velit. Elementum eu facilisis sed odio morbi quis. Habitant morbi tristique senectus et netus et malesuada fames ac. Elementum eu facilisis sed odio morbi. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Malesuada bibendum arcu vitae elementum. Pulvinar etiam non quam lacus suspendisse faucibus. Et tortor consequat id porta nibh venenatis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Massa placerat duis ultricies lacus. Ut enim blandit volutpat maecenas volutpat. Dictum sit amet justo donec enim diam vulputate. Vulputate dignissim suspendisse in est ante. Facilisis volutpat est velit egestas. Facilisis volutpat est velit egestas dui.</p>
+                        <h5 id="item1-2">Aliquam eleifend</h5>
+                        <p>Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Mauris vitae ultricies leo integer malesuada nunc vel risus. Aliquet enim tortor at auctor. Semper quis lectus nulla at volutpat diam ut venenatis. A arcu cursus vitae congue. Curabitur gravida arcu ac tortor. Sagittis eu volutpat odio facilisis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Nullam vehicula ipsum a arcu cursus. Egestas sed tempus urna et pharetra. Amet purus gravida quis blandit turpis cursus in hac habitasse. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Consequat id porta nibh venenatis. Nec ullamcorper sit amet risus Interdum velit laoreet id donec ultrices. Sed cras ornare arcu dui vivamus arcu felis bibendum. Netus et malesuada fames ac. Amet venenatis urna cursus eget. Congue eu consequat ac felis donec et odio pellentesque diam. Fames ac turpis egestas integer eget aliquet nibh. Sit amet porttitor eget dolor morbi non arcu. Gravida neque convallis a cras semper auctor neque. Massa eget egestas purus viverra accumsan. Suspendisse in est ante in nibh mauris cursus. Elementum nibh tellus molestie nunc non blandit massa enim nec. Ipsum dolor sit amet consectetur adipiscing. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Nulla pharetra diam sit amet nisl suscipit adipiscing. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Porta nibh venenatis cras sed felis eget velit. Elementum eu facilisis sed odio morbi quis. Habitant morbi tristique senectus et netus et malesuada fames ac. Elementum eu facilisis sed odio morbi. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Malesuada bibendum arcu vitae elementum. Pulvinar etiam non quam lacus suspendisse faucibus. Et tortor consequat id porta nibh venenatis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Massa placerat duis ultricies lacus. Ut enim blandit volutpat maecenas volutpat. Dictum sit amet justo donec enim diam vulputate. Vulputate dignissim suspendisse in est ante. Facilisis volutpat est velit egestas. Facilisis volutpat est velit egestas dui.</p>
+                        
+                        <h4 id="item2">Vitae proin</h4>
+                        <p>Metus aliquam eleifend mi in nulla posuere. A arcu cursus vitae congue mauris rhoncus. In mollis nunc sed id semper risus in. Faucibus pulvinar elementum integer enim. Vivamus at augue eget arcu dictum varius. Vel fringilla est ullamcorper eget nulla facilisi etiam. Congue eu consequat ac felis donec. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Volutpat sed cras ornare arcu. Ut faucibus pulvinar elementum integer. Varius quam quisque id diam vel quam elementum pulvinar. Cras adipiscing enim eu turpis. Ornare aenean euismod elementum nisi. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Risus sed vulputate odio ut enim blandit.</p>
+                    
+                        <h4  id="item3">Lorem ipsum</h4>
+                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                        <h5 id="item3-1">Metus aliquam eleifend</h5>
+                        <p>Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Mauris vitae ultricies leo integer malesuada nunc vel risus. Aliquet enim tortor at auctor. Semper quis lectus nulla at volutpat diam ut venenatis. A arcu cursus vitae congue. Curabitur gravida arcu ac tortor. Sagittis eu volutpat odio facilisis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Nullam vehicula ipsum a arcu cursus. Egestas sed tempus urna et pharetra. Amet purus gravida quis blandit turpis cursus in hac habitasse. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Consequat id porta nibh venenatis. Nec ullamcorper sit amet risus Interdum velit laoreet id donec ultrices. Sed cras ornare arcu dui vivamus arcu felis bibendum. Netus et malesuada fames ac. Amet venenatis urna cursus eget. Congue eu consequat ac felis donec et odio pellentesque diam. Fames ac turpis egestas integer eget aliquet nibh. Sit amet porttitor eget dolor morbi non arcu. Gravida neque convallis a cras semper auctor neque. Massa eget egestas purus viverra accumsan. Suspendisse in est ante in nibh mauris cursus. Elementum nibh tellus molestie nunc non blandit massa enim nec. Ipsum dolor sit amet consectetur adipiscing. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Nulla pharetra diam sit amet nisl suscipit adipiscing. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Porta nibh venenatis cras sed felis eget velit. Elementum eu facilisis sed odio morbi quis. Habitant morbi tristique senectus et netus et malesuada fames ac. Elementum eu facilisis sed odio morbi. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Malesuada bibendum arcu vitae elementum. Pulvinar etiam non quam lacus suspendisse faucibus. Et tortor consequat id porta nibh venenatis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Massa placerat duis ultricies lacus. Ut enim blandit volutpat maecenas volutpat. Dictum sit amet justo donec enim diam vulputate. Vulputate dignissim suspendisse in est ante. Facilisis volutpat est velit egestas. Facilisis volutpat est velit egestas dui.</p>
+                        <h5 id="item3-2">Aliquam eleifend</h5>
+						<p>Interdum posuere lorem ipsum dolor si</p>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <div class="row mb-5">
+            <div class="col-sm-4">
+                <div class="card mt-3">
+                    <img src="imgs/curso1.png" class="card-img-tops" >
+                    <div class="card-body">
+                        <h3 id="curso-java"class="card-title">Curso Completo </h3>
+                        <h5 class="card-subtitle text-muted">Grátis</h5>
+                        <p class="card-text text-justify mt-2">Eget et praesent imperdiet lorem ut maecenas aenean elementum tortor massa urna, gravida quisque hac litora consequat porttitor donec torquent posuere in, ut lacinia nisi gravida aliquam magna sociosqu ligula senectus velit. fusce a faucibus nec varius dolor lobortis libero vulputate, bibendum dictumst auctor malesuada vivamus scelerisque risus tincidunt consequat, accumsan rhoncus odio a diam rutrum curabitur. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Lógica de programação</li>
+                        <li class="list-group-item">POO</li>
+                        <li class="list-group-item">WEB SERVICE</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary card-link">Começar</button>
+                        <a href="#video3" data-toggle="modal" data-target="#modalVideoJava"class="card-link">Ver Mais</a>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        Instrutor - Breno Alves
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mt-3">
+                    <img src="imgs/curso2.png" width="300px" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Curso completo</h3>
+                        <h5 class="card-subtitle text-muted"> Grátis</h5>
+                        <p class="card-text text-justify mt-2">Eget et praesent imperdiet lorem ut maecenas aenean elementum tortor massa urna, gravida quisque hac litora consequat porttitor donec torquent posuere in, ut lacinia nisi gravida aliquam magna sociosqu ligula senectus velit. fusce a faucibus nec varius dolor lobortis libero vulputate, bibendum dictumst auctor malesuada vivamus scelerisque risus tincidunt consequat, accumsan rhoncus odio a diam rutrum curabitur. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Framework Yii2</li>
+                        <li class="list-group-item">Conexão com Mysql</li>
+                        <li class="list-group-item">POO e PDO</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary card-link">Começar</button>
+                        <a href="#video2" data-toggle="modal" data-target="#modalVideoPHP" class="card-link">Ver Mais</a>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        Instrutora - Gabriela Guimarões
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mt-3">
+                    <img src="imgs/curso3.png" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Curso Completo</h3>
+                        <h5 class="card-subtitle text-muted">Grátis</h5>
+                        <p class="card-text text-justify mt-2">Eget et praesent imperdiet lorem ut maecenas aenean elementum tortor massa urna, gravida quisque hac litora consequat porttitor donec torquent posuere in, ut lacinia nisi gravida aliquam magna sociosqu ligula senectus velit. fusce a faucibus nec varius dolor lobortis libero vulputate, bibendum dictumst auctor malesuada vivamus scelerisque risus tincidunt consequat, accumsan rhoncus odio a diam rutrum curabitur. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Lógica de programação</li>
+                        <li class="list-group-item">Operadores Aritméticos</li>
+                        <li class="list-group-item">Variável e Constante</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn card-link btn-primary" data-toggle="modal" data-target="#siteModal">Começar</button>
+                        <a href="#video1" data-toggle="modal" data-target="#modalVideoJS" class="card-link">Ver Mais</a>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                            Instrutor - João Santos
+                     </div>
+                </div>
+                
+            </div>
+    	</div>
+    </div>
+	  <!-- Jumbotron -->
+	  
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h5 class="display-4"><i class="fab fa-connectdevelop"></i>Serviços</h5>
+					<p class="lead">Lorem ipsum nulla praesent pretium vestibulum a interdum nisl, tristique sed tortor mattis duis augue vel fames, rutrum taciti tortor nisi fermentum accumsan semper. lectus molestie condimentum sagittis duis facilisis sem pellentesque cras, pellentesque diam felis libero sodales phasellus pellentesque sociosqu, quam facilisis ac lacus eros lacus porta.</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 ">
+					<ul class="nav nav-pills justify-content-center mb-3" id="pills-nav" role="tablist">
+						<li class="nav-item">
+							<a href="#nav-pills-1"  data-toggle="pill" class="nav-link active" >Desenvolvimento de Site</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-2"  data-toggle="pill" class="nav-link">Criação de Logo</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-3"  class="nav-link" data-toggle="pill">
+							Desenvolvimento de Software</a>
+						</li>
+					</ul>
+					
+					<div class="tab-content " id="tab" >
+						<div class="tab-pane show active fade " role="tabpanel" id="nav-pills-1" >
+							<div class="row ">
+								<div class="col-6  text-justify">
+								Lorem ipsum nulla praesent pretium vestibulum a interdum nisl, tristique sed tortor mattis duis augue vel fames, rutrum taciti tortor nisi fermentum accumsan semper. lectus molestie condimentum sagittis duis facilisis sem pellentesque cras, pellentesque diam felis libero sodales phasellus pellentesque sociosqu, quam facilisis ac lacus eros lacus porta.
+								</div>
+								<div class="col-6 text-center">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/f15NQEyKoDU" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" role="tabpanel" id="nav-pills-2">
+							<div class="row">
+								<div class="col-6 text-justify">
+									Lorem ipsum nulla praesent pretium vestibulum a interdum nisl, tristique sed tortor mattis duis augue vel fames, rutrum taciti tortor nisi fermentum accumsan semper. lectus molestie condimentum sagittis duis facilisis sem pellentesque cras, pellentesque diam felis libero sodales phasellus pellentesque sociosqu, quam facilisis ac lacus eros lacus porta.
+								</div>
+								<div class="col-6 text-justify">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ClHd3Ss2Xao"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" role="tabpanel" id="nav-pills-3">
+							<div class="row">
+								<div class="col-6 text-center">
+									Lorem ipsum nulla praesent pretium vestibulum a interdum nisl, tristique sed tortor mattis duis augue vel fames, rutrum taciti tortor nisi fermentum accumsan semper. lectus molestie condimentum sagittis duis facilisis sem pellentesque cras, pellentesque diam felis libero sodales phasellus pellentesque sociosqu, quam facilisis ac lacus eros lacus porta.
+								</div>
+								<div class="col-6 text-center">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PEwIcCHEzHg"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h5 class="display-4 text-center my-3">Cadastrar <i class="far fa-paper-plane ml-3"></i></h5>
+			</div>
+		</div>  
+		<div class="row justify-content-center mb-5">
+			<div class="col-sm-12 col-md-10 col-lg-8">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label for="inputNome">Primeiro Nome</label>
+							<input type="text" class="form-control" id="inputNome" name="inputNome" placeholder="Nome">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="inputSobrenome">Segundo Nome</label>
+							<input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" name="inputSobrenome">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<label for="inputEmail">Seu Email</label>
+							<input type="email" placeholder="Email" class="form-control" name="inputEmail" id="inputEmail">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label for="inputCid">Sua Cidade</label>
+							<input type="text" class="form-control" id="inputCid" name="inputCid" placeholder="Cidade">
+						</div>
+						<div class="form-group col-sm-4">
+							<label for="inputEstado">Seu Estado</label>
+							<select id="inputEstado" name="inputEstado" class="form-control">
+								<option>Escolha...</option>
+								<option>Ceará</option>
+								<option>São Paulo</option>
+								<option>Rio de Janeiro</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-2">
+							<label for="inputCEP">Seu CEP</label>
+							<input type="number" name="inputCEP" maxlength="8" id="inputCEP" class="form-control" placeholder="CEP">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+	
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input">Desejo receber novidade via email?
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-row text-center">
+						<div class="form-group col-12">
+							<button class="btn btn-dark btn-block" type="submit">Cadastrar</button>
+							<a  class="" role="button" data-placement="right" data-toggle="popover" tabindex="0" data-trigger="focus" title="Ajuda" data-content="Preencha corretamente">Ajuda</a>
+							
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row">
+			<div class="col-12 my-3">
+		
+				<hr>
+		
+			</div>  
+			
+			<div class="col-sm-4">
+				<h3 class="display-4 text-center">Sobre</h3>
+				<p class="text-justify">Lorem ipsum dui primis litora nam ultricies tortor dapibus suscipit cras, metus quam vehicula nunc sed molestie tortor eleifend augue massa adipiscing, est tempus ut lorem ipsum sagittis sodales ipsum cras. </p>
+			</div>
+			<div class="col-sm-4  text-center">
+				<h3 class="display-4">Menu</h3>
+				<!--ul class="list-group">
+					<li class="list-group-item">Java</li>
+					<li class="list-group-item">PHP</li>
+				</ul -->
+				
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-primary">Cursos</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contatos</a>
+				</div>
+			</div>
+			<div class="col-sm-4 text-center">
+				<h3 class="display-4">Social</h3>
+				<div class="btn-group-vertical btn-block btn-group-lg" role="group">
+					<a class="btn btn-outline-primary " href="#">Facebook <i class="fab fa-facebook"></i></a>
+					<a class="btn btn-outline-info " href="#">Whatsapp <i class="fab fa-whatsapp"></i></a>
+					<a class="btn btn-outline-warning " href="#">Instagran <i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="col-12 mt-5">
+				<blockquote class="blockquote text-center">
+					<p class="mb-0 lead">Seja a luz no fim do túnel.</p>
+					<footer class="blockquote-footer">@joaosantos.dev <cite title="Gestão Inteligente">Our Mind</cite></footer>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+	  
+	
+	  
+	  <!-- Modal -->
+	<div class="modal fade" id="modalVideoJava" tabindex="-1" role="dialog">
+		<div class="modal-dialog " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Apresentação do Curso</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<video width="100%"  controls>
+									<source src="videos/cursoJava.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	  
+	<div class="modal fade" id="modalVideoPHP">
+		<div class="modal-dialog">
+			<div class="modal-content" role="document">
+				<div class="modal-header">
+					<h5 class="modal-title">Apresentação do Curso</h5>
+					<button type="button" class="close" data-dismiss="modal">
+					<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<video width="100%" controls>
+									<source type="video/mp4" src="videos/cursoPHP.mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	  
+	<div class="modal fade" id="modalVideoJS">
+		<div class="modal-dialog">
+			<div class="modal-content" role="document">
+				<div class="modal-header">
+					<h5 class="modal-title">Apresentação do Curso</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<video width="100%" controls>
+									<source src="videos/cursoJS.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+   
+    
+   
+	<script>  $(function () {
+  $('[data-toggle="popover"]').popover();
+});
+	  </script>
+  </body>
+</html>
